@@ -1,0 +1,180 @@
+﻿id,gender,age,department,state,residence status,mode of entry,utme score,putme score,stat is first choice,denied admission,utme writes,type of high school,no of olevel sittings,family size,family position,monthly stipend,have laptop,mobile phone os,weekly data spending
+STU1,Male,17,Computer Science,Oyo,On Campus,UTME,288,70,No,0,1,Public,1,5,Lastborn,5000,Yes,Android,2000
+STU2,Female,18,Computer Science,Ogun,On Campus,UTME,305,75,No,1,2,Private,1,4,Lastborn,40000,Yes,IOS,2500
+STU3,Female,18,Statistics,Osun,On Campus,UTME,255,62,No,0,3,Private,2,6,Lastborn,30000,Yes,Android,500
+STU4,Male,17,Statistics,Oyo,On Campus,UTME,258,58,No,0,1,Private,1,5,2nd,20000,Yes,Android,1700
+STU5,Male,17,Computer Science,Oyo,On Campus,UTME,355,76,No,0,1,Private,1,5,2nd,20000,No,Android,1750
+STU6,Male,18,Statistics,Ogun,On Campus,UTME,290,69,No,0,1,Private,1,6,3rd,10000,Yes,Android,4000
+STU7,Female,16,Computer Science,Oyo,On Campus,UTME,314,68,No,0,1,Private,1,5,2nd,50000,Yes,Android,3500
+STU8,Male,16,Computer Science,Oyo,On Campus,UTME,285,70,No,0,1,Private,1,4,1st,40000,Yes,Android,2000
+STU9,Male,20,Computer Science,Delta,On Campus,UTME,326,71,No,0,1,Private,2,6,4th,30000,Yes,IOS,4000
+STU10,Male,18,Statistics,Ogun,On Campus,UTME,296,78,Yes,0,2,Private,1,5,Lastborn,40000,No,Android,2000
+STU11,Male,17,Computer Science,Ogun,On Campus,UTME,300,72,No,0,1,Private,1,4,3rd,40000,Yes,Android,10000
+STU12,Female,16,Statistics,Ondo,On Campus,UTME,272,52,No,0,1,Private to Public,2,5,3rd,40000,Yes,Android,1500
+STU13,Female,19,Computer Science,Ebonyi,On Campus,UTME,319,72,No,0,1,Private,1,5,1st,56000,Yes,Android,1875
+STU14,Male,17,Computer Science,Anambra,On Campus,UTME,307,82,No,0,1,Public,1,4,1st,25000,Yes,Xiaomi OS,600
+STU15,Male,17,Computer Science,Osun,Off Campus,UTME,304,79,No,1,2,Private,1,4,Lastborn,20000,No,Android,1000
+STU16,Male,16,Science,Anambra,On Campus,UTME,301,73,No,0,1,Private,1,6,3rd,35000,Yes,IOS,1500
+STU17,Male,18,Computer Science,Oyo,On Campus,UTME,304,71,No,0,1,Public,2,6,Lastborn,15000,Yes,Android,6000
+STU18,Male,17,Statistics,Oyo,On Campus,UTME,279,60,Yes,0,1,Private,1,5,2nd,50,No,Android,1000
+STU19,Female,16,Computer Science,Oyo,On Campus,UTME,300,81,Yes,1,2,Private,1,4,1st,30000,Yes,Android,6000
+STU20,Male,18,Statistics,Ogun,On Campus,UTME,277,64,Yes,1,2,Private,1,6,1st,35000,No,Android,1500
+STU21,Male,16,Computer Science,Ondo,On Campus,UTME,332,86,No,0,1,Private to Public,1,5,2nd,20000,No,Android,0
+STU22,Male,17,Computer Science,Oyo,On Campus,UTME,296,78,No,0,1,Private,1,7,2nd,50000,Yes,Android,1500
+STU23,Male,18,Statistics,Ogun,On Campus,UTME,209,56,Yes,1,2,Public,1,5,2nd,0,Yes,Android,0
+STU24,Male,17,Statistics,Ekiti,On Campus,UTME,246,58,Yes,0,1,Private,1,5,2nd,30000,Yes,Android,1500
+STU25,Male,19,Statistics,Ogun,On Campus,UTME,251,55,No,0,1,Public to Private,1,6,1st,50000,No,Android,1000
+STU26,Female,17,Computer Science,Ogun,On Campus,UTME,280,72,No,0,1,Private,1,3,2nd,80000,Yes,IOS,3000
+STU27,Male,17,Computer Science,Enugu,On Campus,UTME,306,70,No,0,1,Private,1,5,3rd,80000,No,Android,2500
+STU28,Male,18,Computer Science,Ekiti,On - Off Campus,UTME,326,69,No,0,1,Public,1,8,Lastborn,25000,Yes,Android,1500
+STU29,Male,19,Statistics,Ogun,Off Campus,UTME,243,69,Yes,1,2,Private,2,4,Lastborn,100000,Yes,Android,2000
+STU30,Male,17,Statistics,Osun,On Campus,UTME,286,68,No,0,1,Private,1,6,3rd,10000,No,Android,1500
+STU31,Male,18,Statistics,Oyo,On Campus,UTME,257,58,No,0,1,Private,1,5,2nd,30000,Yes,Android,2500
+STU32,Female,17,Computer Science,Ogun,On Campus,UTME,296,72.5,No,0,1,Private,1,6,1st,10000,Yes,Android,2500
+STU33,Male,18,Computer Science,Ogun,On Campus,UTME,306,77,No,0,1,Private,2,7,3rd,10000,Yes,Android,1000
+STU34,Male,21,Statistics,Ogun,Off Campus,UTME,241,60,Yes,1,2,Public,1,4,3rd,20000,No,Android,2000
+STU35,Male,17,Statistics,Oyo,On - Off Campus,UTME,263,64,No,0,1,Public,2,5,1st,17000,Yes,Android,1000
+STU36,Female,16,Computer Science,Delta,On Campus,UTME,295,77,No,0,1,Public,1,6,1st,35000,Yes,Android,3500
+STU37,Male,19,Computer Science,Imo,On Campus,UTME,276,76,No,1,1,Private,1,7,4th,25000,No,Android,1000
+STU38,Female,17,Statistics,Ekiti,On Campus,UTME,257,69,No,0,1,Private,2,6,Lastborn,45000,Yes,Android,2500
+STU39,Female,16,Statistics,Oyo,On Campus,UTME,286,63,No,0,2,Private,1,4,1st,30000,No,Android,3000
+STU40,Female,17,Statistics,Oyo,On Campus,UTME,263,67,Yes,0,1,Public,1,7,Lastborn,100,Yes,Android,7000
+STU41,Male,18,Statistics,Ogun,On Campus,UTME,210,60,Yes,0,2,Private,1,5,1st,40000,Yes,Android,3000
+STU42,Male,17,Statistics,Oyo,On Campus,UTME,265,61,Yes,0,1,Private to Public,1,5,2nd,3000,No,Android,1500
+STU43,Female,16,Statistics,Ondo,On Campus,UTME,204,52,Yes,0,1,Public,1,4,1st,30000,No,Android,6000
+STU44,Male,17,Statistics,Akwa-Ibom,On - Off Campus,UTME,264,55,Yes,0,1,Private to Public,1,3,1st,70000,Yes,Android,2000
+STU45,Male,20,Statistics,Osun,On Campus,UTME,285,51,Yes,1,3,Private to Public,1,4,Lastborn,50000,Yes,Android,1875
+STU46,Male,18,Statistics,Oyo,Off Campus,UTME,241,70,No,0,1,Private,1,6,Lastborn,40000,No,Android,1500
+STU47,Male,17,Computer Science,Oyo,On Campus,UTME,307,74,No,0,1,Private,1,6,5th,50000,Yes,Android,800
+STU48,Male,17,Statistics,Enugu,On - Off Campus,UTME,272,62,No,0,1,Public,1,5,2nd,15000,No,Android,1500
+STU49,Female,16,Statistics,Osun,On Campus,UTME,251,59,No,0,1,Private,1,4,Lastborn,35,No,Android,4000
+STU50,Female,16,Statistics,Ondo,On Campus,UTME,262,69,No,0,1,Public,1,5,4th,30000,Yes,Android,2000
+STU51,Male,16,Computer Science,Ogun,On Campus,UTME,302,80,No,0,2,Private,1,10,Lastborn,50000,Yes,Android,1875
+STU52,Female,17,Mathematics,Ogun,On Campus,UTME,309,70,No,0,1,Private,1,5,1st,20000,No,Android,5000
+STU53,Female,17,Computer Science,Ogun,On Campus,UTME,264,75,No,0,1,Private,1,4,Lastborn,30000,No,Android,6000
+STU54,Male,17,Statistics,Oyo,On Campus,UTME,273,72,Yes,1,2,Private,1,5,1st,50000,Yes,Android,5000
+STU55,Male,19,Statistics,Akwa-Ibom,On Campus,GCE,225,54,Yes,0,1,Private,1,4,4th,0,No,Android,750
+STU56,Female,17,Statistics,Ekiti,On Campus,UTME,263,53,No,0,1,Public,1,3,Lastborn,20000,No,Android,2000
+STU57,Male,17,Computer Science,Bayelsa,Off Campus,UTME,283,51,No,0,1,Private,1,2,Lastborn,120000,Yes,Android,3000
+STU58,Male,17,Statistics,Abia,On Campus,UTME,211,57,No,0,2,Public,2,2,1st,30000,Yes,Android,1500
+STU59,Male,16,Computer Science,Oyo,On Campus,UTME,303,76,No,0,1,Private,1,5,2nd,0,No,Android,2250
+STU60,Male,19,Statistics,Ogun,On Campus,UTME,281,51,No,0,3,Public to Private,1,6,3rd,5000,No,Android,900
+STU61,Male,16,Statistics,Ogun,On Campus,UTME,238,55,No,0,1,Private,2,5,2nd,10000,No,Android,2000
+STU62,Male,16,Statistics,Oyo,On Campus,UTME,244,66,Yes,0,1,Private,1,5,1st,30000,No,Android,0
+STU63,Female,20,Statistics,Oyo,On Campus,UTME,220,60,Yes,1,2,Public,1,4,Lastborn,20000,No,Android,2000
+STU64,Female,17,Computer Science,Oyo,On Campus,UTME,329,76,No,0,1,Private,1,7,3rd,0,Yes,Android,5000
+STU65,Female,17,Computer Science,Oyo,On Campus,UTME,316,73,No,0,2,Private,1,5,Lastborn,45000,Yes,Android,1500
+STU66,Female,17,Statistics,Osun,On Campus,UTME,258,52,No,0,2,Private,1,6,2nd,30000,Yes,Android,2500
+STU67,Male,19,Statistics,Oyo,On Campus,UTME,286,67,Yes,1,3,Private,1,5,3rd,6000,No,Android,900
+STU68,Female,21,Statistics,Oyo,Off Campus,UTME,269,60,No,0,3,Private,1,6,Lastborn,20,No,Android,2000
+STU69,Male,16,Statistics,Oyo,On Campus,UTME,258,59,No,0,1,Private,1,5,1st,35000,Yes,Android,2250
+STU70,Male,16,Computer Science,Ogun,On Campus,UTME,292,73,No,0,1,Public,1,6,3rd,10000,No,Android,2000
+STU71,Female,16,Statistics,Ekiti,On Campus,UTME,263,67,No,0,1,Private,1,4,2nd,50000,Yes,Android,10000
+STU72,Male,16,Statistics,Ogun,On Campus,UTME,273,69,No,0,1,Private,1,5,,20000,Yes,Android,1500
+STU73,Male,17,Computer Science,Delta,On Campus,UTME,337,80,No,0,1,Private,1,5,1st,30000,Yes,Android,2500
+STU74,Male,16,Computer Science,Ondo,On Campus,UTME,296,70,No,0,1,Private,1,5,1st,30000,Yes,Android,1750
+STU75,Male,16,Computer Science,Osun,On Campus,UTME,305,75,No,0,1,Private to Public,1,5,1st,20000,Yes,Android,2000
+STU76,Male,17,Computer Science,Osun,On Campus,UTME,270,75,No,0,1,Private,1,6,Lastborn,10000,Yes,Android,2000
+STU77,Female,17,Statistics,Ondo,On Campus,UTME,261,54,No,0,1,Private,1,7,Lastborn,20,Yes,Android,2250
+STU78,Male,20,Computer Science,Enugu,On Campus,UTME,291,68,No,1,3,Private to Public,1,5,2nd,3000,No,Android,6000
+STU79,Male,16,Computer Science,Edo,On Campus,UTME,310,70,No,0,1,Public,1,6,3rd,10,Yes,Android,100
+STU80,Male,17,Computer Science,Delta,On Campus,UTME,285,76,No,0,1,Public,1,3,2nd,15000,Yes,Android,1800
+STU81,Male,18,Statistics,Delta,On Campus,UTME,277,61,No,0,2,Private,2,5,Lastborn,20000,Yes,Android,500
+STU82,Male,19,Computer Science,Ogun,Off Campus,UTME,299,71,No,0,1,Private,1,4,4th,60,Yes,Android,3000
+STU83,Male,18,Statistics,Edo,On Campus,UTME,293,67,No,0,1,Private,2,6,2nd,30000,Yes,Android,1000
+STU84,Male,18,Computer Science,Oyo,On Campus,UTME,329,79,No,0,1,Private,1,7,1st,20000,No,Android,1250
+STU85,Male,17,Statistics,Ogun,On Campus,UTME,289,68,No,0,1,Private to Public,1,4,Lastborn,60000,Yes,IOS,3500
+STU86,Male,20,Statistics,Oyo,On Campus,UTME,254,60,Yes,0,1,Public,2,6,1st,15000,Yes,IOS,2000
+STU87,Male,19,Computer Science,Ogun,Off Campus,UTME,299,71,No,0,1,Private,1,5,4th,50,Yes,Android,3000
+STU88,Female,17,Computer Science,Ogun,On Campus,UTME,296,73,No,0,1,Private,1,6,1st,10000,Yes,Android,5500
+STU89,Male,19,Computer Science,Oyo,On Campus,UTME,303,72,No,0,1,Private,1,4,3rd,15000,Yes,Android,4000
+STU90,Male,18,Computer Science,Oyo,Off Campus,UTME,285,77,No,1,2,Private,1,4,4th,10000,No,Android,1500
+STU91,Male,16,Computer Science,Oyo,On Campus,UTME,289,72,No,0,1,Private,1,5,Lastborn,10000,Yes,Android,1500
+STU92,Male,17,Computer Science,Delta,On Campus,UTME,285,76,No,0,1,Public,1,3,2nd,18000,Yes,Android,1200
+STU93,Male,21,Computer Science,Edo,On Campus,UTME,337,79,No,0,3,Private,1,4,1st,50000,Yes,Android,2500
+STU94,Female,19,Computer Science,Bayelsa,On Campus,UTME,267,55,No,0,1,Public,2,6,1st,20000,No,Android,1000
+STU95,Male,18,Computer Science,Oyo,On Campus,UTME,306,78,No,0,2,Private,1,4,2nd,25000,Yes,Android,2250
+STU96,Male,18,Computer Science,Ogun,On Campus,UTME,307,76,Yes,1,2,Private,1,7,4th,20000,Yes,Android,4000
+STU97,Male,18,Computer Science,Osun,Off Campus,UTME,304,79,No,1,2,Private,1,4,2nd,20000,No,Android,1200
+STU98,Male,18,Computer Science,Ekiti,On Campus,UTME,326,69,No,0,1,Private,1,6,Lastborn,20000,No,Android,1500
+STU99,Male,19,Computer Science,Imo,On Campus,UTME,276,76,No,1,1,Private,1,6,2nd,50000,No,Android,1000
+STU100,Female,16,Computer Science,Lagos,On Campus,UTME,300,81,No,1,2,Private,1,4,3rd,30000,Yes,Android,3000
+STU101,Male,20,Computer Science,Oyo,On Campus,UTME,287,85,No,1,2,Private to Public,1,5,2nd,20000,No,Android,2000
+STU102,Male,17,Computer Science,Oyo,On Campus,UTME,314,70,No,0,1,Private,1,7,4th,40000,Yes,IOS,2000
+STU103,Male,18,Computer Science,Oyo,On Campus,UTME,329,79,No,0,1,Private,1,7,1st,20000,Yes,Android,1500
+STU104,Male,17,Computer Science,Kwara,On Campus,UTME,281,75,No,0,1,Private to Public,2,5,2nd,10000,Yes,Android,1500
+STU105,Female,16,Computer Science,Edo,On Campus,UTME,297,72,Yes,0,1,Public,1,6,3rd,10000,No,Android,2000
+STU106,Female,17,Computer Science,Oyo,On Campus,UTME,329,76,No,0,1,Private,1,7,3rd,40000,Yes,Android,5000
+STU107,Male,17,Mathematics,Ondo,On Campus,UTME,290,65,No,0,1,Private to Public,1,5,1st,2000,No,Android,1000
+STU108,Male,18,Statistics,Oyo,On Campus,UTME,257,58,No,0,1,Private,1,5,2nd,30000,Yes,Android,2500
+STU109,Male,17,Statistics,Osun,On Campus,UTME,286,69,No,0,1,Private,1,6,3rd,10000,No,Android,1500
+STU110,Female,16,Computer Science,Oyo,On Campus,UTME,314,66,No,0,1,Private,1,5,2nd,50000,Yes,Android,3500
+STU111,Male,17,Computer Science,Oyo,On Campus,UTME,270,75,No,0,1,Private,1,6,Lastborn,30000,Yes,Android,2500
+STU112,Male,18,Computer Science,Benue,On Campus,UTME,290,66,No,0,1,Private,1,4,4th,50000,No,Android,3000
+STU113,Male,17,Computer Science,Imo,On Campus,UTME,324,81,No,0,1,Private,1,5,1st,60000,Yes,Android,1500
+STU114,Female,17,Computer Science,Edo,On Campus,UTME,325,63,No,0,2,Public,1,6,3rd,20000,Yes,IOS,1000
+STU115,Male,17,Computer Science,Imo,On Campus,UTME,299,67,No,0,1,Private,1,7,3rd,35000,Yes,Android,1500
+STU116,Female,18,Statistics,Imo,On Campus,UTME,254,64,Yes,2,3,Private,2,5,1st,5000,No,Android,2500
+STU117,Male,16,Computer Science,Ogun,On Campus,UTME,303,68,No,0,1,Private,1,5,3rd,28000,Yes,Android,1500
+STU118,Male,17,Computer Science,Bayelsa,Off Campus,UTME,283,51,No,0,1,Private,1,3,Lastborn,120000,Yes,Android,3000
+STU119,Male,16,Statistics,Osun,On Campus,UTME,284,60,No,0,1,Public,1,5,2nd,50000,Yes,Android,2500
+STU120,Male,16,Computer Science,Ogun,On Campus,UTME,292,73,No,0,1,Public,1,6,3rd,20000,Yes,Android,2000
+STU121,Male,18,Computer Science,Delta,On Campus,UTME,301,78,No,0,2,Private,1,6,Lastborn,70000,Yes,Android,3500
+STU122,Male,19,Statistics,Ogun,On Campus,UTME,281,51,No,0,3,Public to Private,1,6,3rd,10000,Yes,Android,1800
+STU123,Female,17,Statistics,Ogun,On Campus,UTME,232,53,No,0,1,Private,1,6,1st,25000,Yes,Android,5000
+STU124,Male,18,Mathematics,Edo,On Campus,UTME,326,63,No,0,2,Private,1,7,1st,20000,Yes,Android,1000
+STU125,Male,20,Computer Science,Oyo,On Campus,UTME,283,75,No,0,1,Private,2,6,2nd,10000,No,Android,2000
+STU126,Male,18,Computer Science,Ogun,On Campus,UTME,298,71,No,0,3,Private,2,5,1st,10000,No,Android,1000
+STU127,Female,17,Computer Science,Ogun,On Campus,UTME,264,75,No,0,1,Private,1,4,Lastborn,30000,No,Android,1500
+STU128,Male,21,Computer Science,Oyo,On Campus,UTME,290,73,No,0,1,Public,1,6,3rd,10000,Yes,Android,1000
+STU129,Male,17,Mathematics,Ekiti,On Campus,UTME,252,57,No,0,1,Private,2,6,Lastborn,5000,No,Android,500
+STU130,Male,19,Statistics,Ogun,On Campus,UTME,251,55,No,0,1,Public to Private,1,6,1st,50000,No,Android,1000
+STU131,Male,18,Statistics,Oyo,On Campus,UTME,265,61,Yes,0,1,Public,1,5,4th,8000,No,Android,1000
+STU132,Male,17,Statistics,Anambra,On Campus,UTME,237,57,Yes,0,1,Private to Public,1,4,Lastborn,15000,Yes,Android,1500
+STU133,Female,17,Statistics,Ondo,On Campus,UTME,261,54,No,0,1,Private,1,7,Lastborn,15000,Yes,Android,10000
+STU134,Male,20,Statistics,Oyo,On Campus,UTME,254,60,Yes,0,2,Public,2,6,1st,20000,Yes,IOS,2500
+STU135,Female,18,Statistics,Imo,On Campus,UTME,254,64,Yes,1,2,Private,2,5,1st,5000,No,Android,2500
+STU136,Male,17,Statistics,Oyo,On Campus,UTME,258,57,No,0,1,Private,1,6,4th,30000,Yes,Android,3500
+STU137,Male,17,Statistics,Ogun,On Campus,UTME,238,52,No,0,1,Private,3,5,2nd,8000,No,Android,1000
+STU138,Male,18,Statistics,Ogun,On Campus,UTME,210,60,Yes,0,2,Private,1,5,1st,20000,Yes,Android,3000
+STU139,Female,16,Computer Science,Ogun,On Campus,UTME,307,62,No,0,1,Private,1,8,Lastborn,30000,No,Android,2000
+STU140,Male,16,Computer Science,Ondo,On Campus,UTME,296,70,No,0,1,Private,1,5,1st,30000,Yes,Android,1500
+STU141,Male,18,Statistics,Ogun,On Campus,UTME,290,69,No,0,1,Private,1,6,3rd,10000,Yes,Android,4000
+STU142,Female,20,Statistics,Oyo,On Campus,UTME,220,60,Yes,1,2,Public,1,4,Lastborn,15000,No,IOS,2000
+STU143,Male,17,Statistics,Ondo,On - Off Campus,UTME,300,60,Yes,0,1,Private,1,7,6th,0,Yes,Android,1500
+STU144,Female,17,Computer Science,Ogun,On Campus,UTME,309,70,No,0,1,Public to Private,1,5,1st,20000,Yes,Android,10000
+STU145,Male,18,Computer Science,Enugu,On Campus,UTME,276,71,No,0,2,Private,1,4,Lastborn,50000,Yes,IOS,2500
+STU146,Male,17,Statistics,Oyo,On - Off Campus,UTME,269,72,No,0,1,Public,1,6,Lastborn,2000,Yes,Android,3500
+STU147,Female,17,Statistics,Osun,On Campus,UTME,248,72,No,0,1,Private,1,5,1st,20000,Yes,Android,2500
+STU148,Male,18,Statistics,Delta,On Campus,UTME,203,51,Yes,0,2,Private,1,3,3rd,60000,No,Android,2000
+STU149,Male,16,Statistics,Oyo,On Campus,UTME,258,59,No,0,1,Private,1,5,1st,35000,No,Android,9000
+STU150,Female,17,Computer Science,Anambra,On Campus,UTME,308,72,No,0,1,Private,1,5,2nd,0,Yes,Android,0
+STU151,Male,16,Mathematics,Oyo,On Campus,UTME,227,54,No,0,1,Public,1,6,2nd,20000,No,Android,1000
+STU152,Male,18,Computer Science,Oyo,On Campus,UTME,281,76,No,1,3,Private to Public,1,15,5th,50000000,Yes,Android,1000
+STU153,Male,18,Computer Science,Ogun,On Campus,UTME,292,71,No,0,2,Public,1,4,Lastborn,50000,Yes,Android,1500
+STU154,Male,18,Statistics,Oyo,On Campus,UTME,248,65,No,0,1,Private,1,5,3rd,1,Yes,Android,200
+STU155,Male,18,Computer Science,Edo,On Campus,UTME,326,68,Yes,0,1,Private,1,6,Lastborn,100000,Yes,Android,3000
+STU156,Male,17,Computer Science,Cross River,Off Campus,UTME,294,65,No,0,1,Private,1,3,1st,40000,Yes,Android,1000
+STU157,Male,16,Computer Science,Osun,On Campus,UTME,322,85,No,1,2,Public to Private,1,6,Lastborn,20000,No,Android,2000
+STU158,Male,21,Statistics,Oyo,Off Campus,UTME,289,63,No,1,3,Private,1,4,1st,0,Yes,Android,1000
+STU159,Female,16,Computer Science,Oyo,On Campus,UTME,314,66,No,0,1,Private,1,5,2nd,50000,Yes,Android,3500
+STU160,Male,16,Statistics,Osun,On Campus,UTME,275,55,Yes,0,1,Private,2,6,2nd,30000,Yes,Android,1500
+STU161,Male,18,Statistics,Oyo,On Campus,UTME,245,65,No,0,1,Private,1,5,3rd,1000,Yes,Android,1000
+STU162,Male,17,Statistics,Oyo,On Campus,UTME,258,57,No,0,1,Private,1,5,4th,40000,Yes,Android,3500
+STU163,Male,16,Statistics,Oyo,On Campus,UTME,213,52,No,0,1,Private,1,5,Lastborn,30000,Yes,Android,3000
+STU164,Male,17,Mathematics,Edo,On Campus,UTME,236,59,No,0,2,Private,1,4,3rd,10,No,Android,4000
+STU165,Female,17,Mathematics,Oyo,On Campus,UTME,248,64,No,0,1,Public,1,6,2nd,20000,Yes,Android,10
+STU166,Male,21,Mathematics,Edo,On Campus,UTME,265,55,No,0,2,Private to Public,1,6,3rd,50000,No,Android,3000
+STU167,Male,19,Mathematics,Oyo,On Campus,UTME,236,59,No,0,2,Private,2,1,1st,2,No,Android,3
+STU168,Female,16,Statistics,Ondo,On Campus,UTME,262,69,Yes,0,1,Public,1,5,3rd,35000,Yes,Android,1500
+STU169,Female,18,Mathematics,Oyo,On Campus,UTME,245,50,No,0,3,Private,2,4,1st,50000,Yes,Android,3000
+STU170,Male,17,Statistics,Oyo,On Campus,UTME,261,59,Yes,0,1,Private,2,4,4th,45000,Yes,Android,5000
+STU171,Male,17,Statistics,Abia,On Campus,UTME,211,57,No,0,2,Public,2,2,1st,30000,Yes,Android,1500
+STU172,Male,18,Statistics,Abia,On Campus,UTME,235,56,Yes,1,2,Private,1,4,Lastborn,30000,Yes,Android,1500
+STU173,Male,21,Statistics,Oyo,On Campus,UTME,261,63,No,0,2,Private,1,8,1st,50000,No,Android,1500
+STU174,Male,17,Statistics,Anambra,On Campus,UTME,274,67,No,0,1,Private,1,6,3rd,40000,No,Android,1500
+STU175,Male,16,Mathematics,Oyo,On Campus,UTME,226,56,No,0,1,Private,1,5,1st,50000,Yes,Android,8000
+STU176,Male,18,Mathematics,Oyo,On Campus,UTME,219,55,No,0,1,Private,1,4,3rd,20000,No,Android,1000
+STU177,Male,19,Mathematics,Oyo,On - Off Campus,UTME,261,61,No,0,1,Public,1,5,1st,25000,No,Android,6000
+STU178,Male,17,Computer Science,Ogun,On Campus,UTME,310,70,No,0,1,Private,1,5,2nd,150,Yes,Android,25
+STU179,Male,18,Statistics,Ogun,On Campus,UTME,277,58,Yes,1,2,Private,1,6,1st,30000,No,Android,2500
