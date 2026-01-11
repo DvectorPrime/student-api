@@ -1,4 +1,3 @@
-import { filterIfIncluded } from "../utils/filterIfIncluded.js"
 import { getDataFromCsv } from "../utils/getDataFromCsv.js"
 
 export const getStudents = async (req, res) => {
@@ -13,16 +12,27 @@ export const getStudents = async (req, res) => {
 
         for (const filter of Object.keys(filters)){
             if(separateFiltersExact.includes(filter)){
+                console.log(filter)
+                studentData = studentData.filter(student => {
+                    const dbMatricNo = parseInt(student[filter])
+                    const normalizedInput = parseInt(filters[filter])
+                    console.log(dbMatricNo, normalizedInput, dbMatricNo === normalizedInput)
+                    return dbMatricNo === normalizedInput
+                })
 
             } else if (separateFiltersLessThan.includes(filter)){
                 
             } else if (separateFiltersGreaterThan.includes(filter)){
 
             } else {
-                studentData = filterIfIncluded(studentData, filter, filters[filter])
+                studentData = studentData.filter(student => {
+                    const dbMatricNo = student[filter].toString().toLowerCase().trim().normalize('NFC')
+                    const normalizedInput = filters[filter].toString().toLowerCase().trim().normalize('NFC')
+                    return dbMatricNo.includes(normalizedInput)
+                })
             }
         }
-        
+
         res.json(studentData)
 
     } catch (err) {
