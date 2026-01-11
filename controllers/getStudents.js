@@ -12,18 +12,29 @@ export const getStudents = async (req, res) => {
 
         for (const filter of Object.keys(filters)){
             if(separateFiltersExact.includes(filter)){
-                console.log(filter)
                 studentData = studentData.filter(student => {
                     const dbMatricNo = parseInt(student[filter])
                     const normalizedInput = parseInt(filters[filter])
-                    console.log(dbMatricNo, normalizedInput, dbMatricNo === normalizedInput)
                     return dbMatricNo === normalizedInput
                 })
 
             } else if (separateFiltersLessThan.includes(filter)){
+                studentData = studentData.filter(student => {
+                    const editedFilter = filter.charAt(3).toLowerCase() + filter.substring(4)
+                    const dbMatricNo = parseInt(student[editedFilter])
+                    console.log(editedFilter)
+                    const normalizedInput = parseInt(filters[filter])
+                    return dbMatricNo <= normalizedInput
+                })
                 
             } else if (separateFiltersGreaterThan.includes(filter)){
-
+                studentData = studentData.filter(student => {
+                    const editedFilter = filter.charAt(3).toLowerCase() + filter.substring(4)
+                    const dbMatricNo = parseInt(student[editedFilter])
+                    console.log(editedFilter)
+                    const normalizedInput = parseInt(filters[filter])
+                    return dbMatricNo >= normalizedInput
+                })
             } else {
                 studentData = studentData.filter(student => {
                     const dbMatricNo = student[filter].toString().toLowerCase().trim().normalize('NFC')
