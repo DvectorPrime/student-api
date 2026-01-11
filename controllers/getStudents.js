@@ -6,23 +6,22 @@ export const getStudents = async (req, res) => {
 
         const filters = req.query
 
-        const separateFiltersExact = ["age", "utmeScore", "putmeScore", "deniedAdmissionCount", "utmeWrites", "familySize", "monthlyStipend", "databudget"]
-        const separateFiltersGreaterThan = ["minAge", "minUtmeScore", "minPutmeScore", "minMonthlyStipend"]
-        const separateFiltersLessThan = ["maxAge", "maxUtmeScore", "maxPutmeScore", "maxMonthlyStipend"]
+        const separateFiltersExact = ["age", "utmeScore", "putmeScore", "deniedAdmissionCount", "utmeWrites", "familySize", "monthlyStipend", "dataBudget"]
+        const separateFiltersGreaterThan = ["minAge", "minUtmeScore", "minPutmeScore", "minMonthlyStipend", "mindataBudget", "minFamilySize"]
+        const separateFiltersLessThan = ["maxAge", "maxUtmeScore", "maxPutmeScore", "maxMonthlyStipend", "maxDataBudget", "maxFamilySize"]
 
-        for (const filter of Object.keys(filters)){
+        for (const filter of Object.keys(filters)){            
             if(separateFiltersExact.includes(filter)){
+                const valuesArray = filters[filter].split(",").map(d => parseInt(d.trim()))
                 studentData = studentData.filter(student => {
                     const dbMatricNo = parseInt(student[filter])
-                    const normalizedInput = parseInt(filters[filter])
-                    return dbMatricNo === normalizedInput
+                    return valuesArray.includes(dbMatricNo)
                 })
 
             } else if (separateFiltersLessThan.includes(filter)){
                 studentData = studentData.filter(student => {
                     const editedFilter = filter.charAt(3).toLowerCase() + filter.substring(4)
                     const dbMatricNo = parseInt(student[editedFilter])
-                    console.log(editedFilter)
                     const normalizedInput = parseInt(filters[filter])
                     return dbMatricNo <= normalizedInput
                 })
@@ -31,15 +30,23 @@ export const getStudents = async (req, res) => {
                 studentData = studentData.filter(student => {
                     const editedFilter = filter.charAt(3).toLowerCase() + filter.substring(4)
                     const dbMatricNo = parseInt(student[editedFilter])
-                    console.log(editedFilter)
                     const normalizedInput = parseInt(filters[filter])
                     return dbMatricNo >= normalizedInput
                 })
             } else {
-                studentData = studentData.filter(student => {
+                studentData = studentData.filter((student, index) => {
+                    const valuesArray = filters[filter].split(',').map(d => d.trim());
                     const dbMatricNo = student[filter].toString().toLowerCase().trim().normalize('NFC')
-                    const normalizedInput = filters[filter].toString().toLowerCase().trim().normalize('NFC')
-                    return dbMatricNo.includes(normalizedInput)
+
+                    let success = false
+
+                    for (let value of valuesArray){
+                        if(dbMatricNo.includes(value.toString().toLowerCase().trim().normalize('NFC'))){
+                            success = true
+                            break
+                        }
+                    }
+                    return success
                 })
             }
         }
