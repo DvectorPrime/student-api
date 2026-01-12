@@ -1,180 +1,181 @@
-﻿id,name,matricNo,gender,age,department,state,residence,modeOfEntry,utmeScore,putmeScore,statIsFirstChoice,deniedAdmissionCount,utmeWrites,familySize,monthlyStipend,hasLaptop,mobilePhoneOS,dataBudget
-1,James Smith,230001,Male,17,Computer Science,Oyo,On Campus,UTME,288,70,No,0,1,5,5000,Yes,Android,2000
-2,Mary Johnson,230002,Female,18,Computer Science,Ogun,On Campus,UTME,305,75,No,1,2,4,40000,Yes,IOS,2500
-3,Robert Williams,230003,Female,18,Statistics,Osun,On Campus,UTME,255,62,No,0,3,6,30000,Yes,Android,500
-4,Patricia Brown,230004,Male,17,Statistics,Oyo,On Campus,UTME,258,58,No,0,1,5,20000,Yes,Android,1700
-5,John Jones,230005,Male,17,Computer Science,Oyo,On Campus,UTME,355,76,No,0,1,5,20000,No,Android,1750
-6,Jennifer Garcia,230006,Male,18,Statistics,Ogun,On Campus,UTME,290,69,No,0,1,6,10000,Yes,Android,4000
-7,Michael Miller,230007,Female,16,Computer Science,Oyo,On Campus,UTME,314,68,No,0,1,5,50000,Yes,Android,3500
-8,Linda Davis,230008,Male,16,Computer Science,Oyo,On Campus,UTME,285,70,No,0,1,4,40000,Yes,Android,2000
-9,David Rodriguez,230009,Male,20,Computer Science,Delta,On Campus,UTME,326,71,No,0,1,6,30000,Yes,IOS,4000
-10,Elizabeth Martinez,230010,Male,18,Statistics,Ogun,On Campus,UTME,296,78,Yes,0,2,5,40000,No,Android,2000
-11,William Hernandez,230011,Male,17,Computer Science,Ogun,On Campus,UTME,300,72,No,0,1,4,40000,Yes,Android,10000
-12,Barbara Lopez,230012,Female,16,Statistics,Ondo,On Campus,UTME,272,52,No,0,1,5,40000,Yes,Android,1500
-13,Richard Gonzalez,230013,Female,19,Computer Science,Ebonyi,On Campus,UTME,319,72,No,0,1,5,56000,Yes,Android,1875
-14,Susan Wilson,230014,Male,17,Computer Science,Anambra,On Campus,UTME,307,82,No,0,1,4,25000,Yes,Xiaomi OS,600
-15,Joseph Anderson,230015,Male,17,Computer Science,Osun,Off Campus,UTME,304,79,No,1,2,4,20000,No,Android,1000
-16,Jessica Thomas,230016,Male,16,Computer Science,Anambra,On Campus,UTME,301,73,No,0,1,6,35000,Yes,IOS,1500
-17,Thomas Taylor,230017,Male,18,Computer Science,Oyo,On Campus,UTME,304,71,No,0,1,6,15000,Yes,Android,6000
-18,Sarah Moore,230018,Male,17,Statistics,Oyo,On Campus,UTME,279,60,Yes,0,1,5,50,No,Android,1000
-19,Charles Jackson,230019,Female,16,Computer Science,Oyo,On Campus,UTME,300,81,Yes,1,2,4,30000,Yes,Android,6000
-20,Karen Martin,230020,Male,18,Statistics,Ogun,On Campus,UTME,277,64,Yes,1,2,6,35000,No,Android,1500
-21,Christopher Lee,230021,Male,16,Computer Science,Ondo,On Campus,UTME,332,86,No,0,1,5,20000,No,Android,0
-22,Nancy Perez,230022,Male,17,Computer Science,Oyo,On Campus,UTME,296,78,No,0,1,7,50000,Yes,Android,1500
-23,Daniel Thompson,230023,Male,18,Statistics,Ogun,On Campus,UTME,209,56,Yes,1,2,5,0,Yes,Android,0
-24,Lisa White,230024,Male,17,Statistics,Ekiti,On Campus,UTME,246,58,Yes,0,1,5,30000,Yes,Android,1500
-25,Matthew Harris,230025,Male,19,Statistics,Ogun,On Campus,UTME,251,55,No,0,1,6,50000,No,Android,1000
-26,Betty Clark,230026,Female,17,Computer Science,Ogun,On Campus,UTME,280,72,No,0,1,3,80000,Yes,IOS,3000
-27,Anthony Lewis,230027,Male,17,Computer Science,Enugu,On Campus,UTME,306,70,No,0,1,5,80000,No,Android,2500
-28,Margaret Robinson,230028,Male,18,Computer Science,Ekiti,On - Off Campus,UTME,326,69,No,0,1,8,25000,Yes,Android,1500
-29,Mark Walker,230029,Male,19,Statistics,Ogun,Off Campus,UTME,243,69,Yes,1,2,4,100000,Yes,Android,2000
-30,Sandra Young,230030,Male,17,Statistics,Osun,On Campus,UTME,286,68,No,0,1,6,10000,No,Android,1500
-31,Donald Hall,230031,Male,18,Statistics,Oyo,On Campus,UTME,257,58,No,0,1,5,30000,Yes,Android,2500
-32,Ashley Allen,230032,Female,17,Computer Science,Ogun,On Campus,UTME,296,72.5,No,0,1,6,10000,Yes,Android,2500
-33,Steven King,230033,Male,18,Computer Science,Ogun,On Campus,UTME,306,77,No,0,1,7,10000,Yes,Android,1000
-34,Kimberly Wright,230034,Male,21,Statistics,Ogun,Off Campus,UTME,241,60,Yes,1,2,4,20000,No,Android,2000
-35,Paul Scott,230035,Male,17,Statistics,Oyo,On - Off Campus,UTME,263,64,No,0,1,5,17000,Yes,Android,1000
-36,Emily Torres,230036,Female,16,Computer Science,Delta,On Campus,UTME,295,77,No,0,1,6,35000,Yes,Android,3500
-37,Andrew Nguyen,230037,Male,19,Computer Science,Imo,On Campus,UTME,276,76,No,1,1,7,25000,No,Android,1000
-38,Donna Hill,230038,Female,17,Statistics,Ekiti,On Campus,UTME,257,69,No,0,1,6,45000,Yes,Android,2500
-39,Joshua Flores,230039,Female,16,Statistics,Oyo,On Campus,UTME,286,63,No,0,2,4,30000,No,Android,3000
-40,Michelle Green,230040,Female,17,Statistics,Oyo,On Campus,UTME,263,67,Yes,0,1,7,100,Yes,Android,7000
-41,Kenneth Adams,230041,Male,18,Statistics,Ogun,On Campus,UTME,210,60,Yes,0,2,5,40000,Yes,Android,3000
-42,Carol Nelson,230042,Male,17,Statistics,Oyo,On Campus,UTME,265,61,Yes,0,1,5,3000,No,Android,1500
-43,Kevin Baker,230043,Female,16,Statistics,Ondo,On Campus,UTME,204,52,Yes,0,1,4,30000,No,Android,6000
-44,Amanda Pettis,230044,Male,17,Statistics,Akwa-Ibom,On - Off Campus,UTME,264,55,Yes,0,1,3,70000,Yes,Android,2000
-45,Brian Bruno,230045,Male,20,Statistics,Osun,On Campus,UTME,285,51,Yes,1,3,4,50000,Yes,Android,1875
-46,Melissa Miller,230046,Male,18,Statistics,Oyo,Off Campus,UTME,241,70,No,0,1,6,40000,No,Android,1500
-47,George Cox,230047,Male,17,Computer Science,Oyo,On Campus,UTME,307,74,No,0,1,6,50000,Yes,Android,800
-48,Deborah Kelly,230048,Male,17,Statistics,Enugu,On - Off Campus,UTME,272,62,No,0,1,5,15000,No,Android,1500
-49,Edward Howard,230049,Female,16,Statistics,Osun,On Campus,UTME,251,59,No,0,1,4,35,No,Android,4000
-50,Stephanie Ward,230050,Female,16,Statistics,Ondo,On Campus,UTME,262,69,No,0,1,5,30000,Yes,Android,2000
-51,Ronald Torres,230051,Male,16,Computer Science,Ogun,On Campus,UTME,302,80,No,0,2,10,50000,Yes,Android,1875
-52,Rebecca Peterson,230052,Female,17,Mathematics,Ogun,On Campus,UTME,309,70,No,0,1,5,20000,No,Android,5000
-53,Timothy Gray,230053,Female,17,Computer Science,Ogun,On Campus,UTME,264,75,No,0,1,4,30000,No,Android,6000
-54,Laura Ramirez,230054,Male,17,Statistics,Oyo,On Campus,UTME,273,72,Yes,1,2,5,50000,Yes,Android,5000
-55,Jason James,230055,Male,19,Statistics,Akwa-Ibom,On Campus,GCE,225,54,Yes,0,1,4,0,No,Android,750
-56,Helen Watson,230056,Female,17,Statistics,Ekiti,On Campus,UTME,263,53,No,0,1,3,20000,No,Android,2000
-57,Jeffrey Brooks,230057,Male,17,Computer Science,Bayelsa,Off Campus,UTME,283,51,No,0,1,2,120000,Yes,Android,3000
-58,Sharon Kelly,230058,Male,17,Statistics,Abia,On Campus,UTME,211,57,No,0,2,2,30000,Yes,Android,1500
-59,Ryan Sanders,230059,Male,16,Computer Science,Oyo,On Campus,UTME,303,76,No,0,1,5,0,No,Android,2250
-60,Cynthia Price,230060,Male,19,Statistics,Ogun,On Campus,UTME,281,51,No,0,3,6,5000,No,Android,900
-61,Jacob Bennett,230061,Male,16,Statistics,Ogun,On Campus,UTME,238,55,No,0,1,5,10000,No,Android,2000
-62,Kathleen Wood,230062,Male,16,Statistics,Oyo,On Campus,UTME,244,66,Yes,0,1,5,30000,No,Android,0
-63,Gary Barnes,230063,Female,20,Statistics,Oyo,On Campus,UTME,220,60,Yes,1,2,4,20000,No,Android,2000
-64,Amy Ross,230064,Female,17,Computer Science,Oyo,On Campus,UTME,329,76,No,0,1,7,0,Yes,Android,5000
-65,Nicholas Henderson,230065,Female,17,Computer Science,Oyo,On Campus,UTME,316,73,No,0,2,5,45000,Yes,Android,1500
-66,Shirley Coleman,230066,Female,17,Statistics,Osun,On Campus,UTME,258,52,No,0,2,6,30000,Yes,Android,2500
-67,Eric Jenkins,230067,Male,19,Statistics,Oyo,On Campus,UTME,286,67,Yes,1,3,5,6000,No,Android,900
-68,Angela Perry,230068,Female,21,Statistics,Oyo,Off Campus,UTME,269,60,No,0,3,6,20,No,Android,2000
-69,Jonathan Powell,230069,Male,16,Statistics,Oyo,On Campus,UTME,258,59,No,0,1,5,35000,Yes,Android,2250
-70,Anna Long,230070,Male,16,Computer Science,Ogun,On Campus,UTME,292,73,No,0,1,6,10000,No,Android,2000
-71,Stephen Patterson,230071,Female,16,Statistics,Ekiti,On Campus,UTME,263,67,No,0,1,4,50000,Yes,Android,10000
-72,Ruth Hughes,230072,Male,16,Statistics,Ogun,On Campus,UTME,273,69,No,0,1,5,20000,Yes,Android,1500
-73,Larry Flores,230073,Male,17,Computer Science,Delta,On Campus,UTME,337,80,No,0,1,5,30000,Yes,Android,2500
-74,Brenda Washington,230074,Male,16,Computer Science,Ondo,On Campus,UTME,296,70,No,0,1,5,30000,Yes,Android,1750
-75,Scott Butler,230075,Male,16,Computer Science,Osun,On Campus,UTME,305,75,No,0,1,5,20000,Yes,Android,2000
-76,Pamela Simmons,230076,Male,17,Computer Science,Osun,On Campus,UTME,270,75,No,0,1,6,10000,Yes,Android,2000
-77,Frank Foster,230077,Female,17,Statistics,Ondo,On Campus,UTME,261,54,No,0,1,7,20,Yes,Android,2250
-78,Virginia Gonzales,230078,Male,20,Computer Science,Enugu,On Campus,UTME,291,68,No,1,3,5,3000,No,Android,6000
-79,Brandon Bryant,230079,Male,16,Computer Science,Edo,On Campus,UTME,310,70,No,0,1,6,10,Yes,Android,100
-80,Katherine Alexander,230080,Male,17,Computer Science,Delta,On Campus,UTME,285,76,No,0,1,3,15000,Yes,Android,1800
-81,Gregory Russell,230081,Male,18,Statistics,Delta,On Campus,UTME,277,61,No,0,2,5,20000,Yes,Android,500
-82,Nicole Griffin,230082,Male,19,Computer Science,Ogun,Off Campus,UTME,299,71,No,0,1,4,60,Yes,Android,3000
-83,Benjamin Diaz,230083,Male,18,Statistics,Edo,On Campus,UTME,293,67,No,0,1,6,30000,Yes,Android,1000
-84,Catherine Hayes,230084,Male,18,Computer Science,Oyo,On Campus,UTME,329,79,No,0,1,7,20000,No,Android,1250
-85,Samuel Myers,230085,Male,17,Statistics,Ogun,On Campus,UTME,289,68,No,0,1,4,60000,Yes,IOS,3500
-86,Christine Ford,230086,Male,20,Statistics,Oyo,On Campus,UTME,254,60,Yes,0,1,6,15000,Yes,IOS,2000
-87,Patrick Hamilton,230087,Male,19,Computer Science,Ogun,Off Campus,UTME,299,71,No,0,1,5,50,Yes,Android,3000
-88,Debra Graham,230088,Female,17,Computer Science,Ogun,On Campus,UTME,296,73,No,0,1,6,10000,Yes,Android,5500
-89,Alexander Sullivan,230089,Male,19,Computer Science,Oyo,On Campus,UTME,303,72,No,0,1,4,15000,Yes,Android,4000
-90,Rachel Wallace,230090,Male,18,Computer Science,Oyo,Off Campus,UTME,285,77,No,1,2,4,10000,No,Android,1500
-91,Raymond Woods,230091,Male,16,Computer Science,Oyo,On Campus,UTME,289,72,No,0,1,5,10000,Yes,Android,1500
-92,Carolyn Cole,230092,Male,17,Computer Science,Delta,On Campus,UTME,285,76,No,0,1,3,18000,Yes,Android,1200
-93,Jack West,230093,Male,21,Computer Science,Edo,On Campus,UTME,337,79,No,0,3,4,50000,Yes,Android,2500
-94,Janet Jordan,230094,Female,19,Computer Science,Bayelsa,On Campus,UTME,267,55,No,0,1,6,20000,No,Android,1000
-95,Dennis Owens,230095,Male,18,Computer Science,Oyo,On Campus,UTME,306,78,No,0,2,4,25000,Yes,Android,2250
-96,Maria Reynolds,230096,Male,18,Computer Science,Ogun,On Campus,UTME,307,76,Yes,1,2,7,20000,Yes,Android,4000
-97,Jerry Fisher,230097,Male,18,Computer Science,Osun,Off Campus,UTME,304,79,No,1,2,4,20000,No,Android,1200
-98,Heather Ellis,230098,Male,18,Computer Science,Ekiti,On Campus,UTME,326,69,No,0,1,6,20000,No,Android,1500
-99,Tyler Harrison,230099,Male,19,Computer Science,Imo,On Campus,UTME,276,76,No,1,1,6,50000,No,Android,1000
-100,Diane Gibson,230100,Female,16,Computer Science,Lagos,On Campus,UTME,300,81,No,1,2,4,30000,Yes,Android,3000
-101,Aaron McDonald,230101,Male,20,Computer Science,Oyo,On Campus,UTME,287,85,No,1,2,5,20000,No,Android,2000
-102,Julie Cruz,230102,Male,17,Computer Science,Oyo,On Campus,UTME,314,70,No,0,1,7,40000,Yes,IOS,2000
-103,Jose Marshall,230103,Male,18,Computer Science,Oyo,On Campus,UTME,329,79,No,0,1,7,20000,Yes,Android,1500
-104,Joyce Ortiz,230104,Male,17,Computer Science,Kwara,On Campus,UTME,281,75,No,0,1,5,10000,Yes,Android,1500
-105,Adam Gomez,230105,Female,16,Computer Science,Edo,On Campus,UTME,297,72,Yes,0,1,6,10000,No,Android,2000
-106,Evelyn Murray,230106,Female,17,Computer Science,Oyo,On Campus,UTME,329,76,No,0,1,7,40000,Yes,Android,5000
-107,Henry Freeman,230107,Male,17,Mathematics,Ondo,On Campus,UTME,290,65,No,0,1,5,2000,No,Android,1000
-108,Joan Wells,230108,Male,18,Statistics,Oyo,On Campus,UTME,257,58,No,0,1,5,30000,Yes,Android,2500
-109,Nathan Webb,230109,Male,17,Statistics,Osun,On Campus,UTME,286,69,No,0,1,6,10000,No,Android,1500
-110,Victoria Simpson,230110,Female,16,Computer Science,Oyo,On Campus,UTME,314,66,No,0,1,5,50000,Yes,Android,3500
-111,Douglas Tucker,230111,Male,17,Computer Science,Oyo,On Campus,UTME,270,75,No,0,1,6,30000,Yes,Android,2500
-112,Kelly Porter,230112,Male,18,Computer Science,Benue,On Campus,UTME,290,66,No,0,1,4,50000,No,Android,3000
-113,Peter Hunter,230113,Male,17,Computer Science,Imo,On Campus,UTME,324,81,No,0,1,5,60000,Yes,Android,1500
-114,Christina Hicks,230114,Female,17,Computer Science,Edo,On Campus,UTME,325,63,No,0,2,6,20000,Yes,IOS,1000
-115,Zachary Crawford,230115,Male,17,Computer Science,Imo,On Campus,UTME,299,67,No,0,1,7,35000,Yes,Android,1500
-116,Lauren Mason,230116,Female,18,Statistics,Imo,On Campus,UTME,254,64,Yes,2,3,5,5000,No,Android,2500
-117,Kyle Robertson,230117,Male,16,Computer Science,Ogun,On Campus,UTME,303,68,No,0,1,5,28000,Yes,Android,1500
-118,Frances Boyd,230118,Male,17,Computer Science,Bayelsa,Off Campus,UTME,283,51,No,0,1,3,120000,Yes,Android,3000
-119,Walter Shaw,230119,Male,16,Statistics,Osun,On Campus,UTME,284,60,No,0,1,5,50000,Yes,Android,2500
-120,Martha Holmes,230120,Male,16,Computer Science,Ogun,On Campus,UTME,292,73,No,0,1,6,20000,Yes,Android,2000
-121,Harold Stone,230121,Male,18,Computer Science,Delta,On Campus,UTME,301,78,No,0,2,6,70000,Yes,Android,3500
-122,Cheryl Meyer,230122,Male,19,Statistics,Ogun,On Campus,UTME,281,51,No,0,3,6,10000,Yes,Android,1800
-123,Jeremy Ferguson,230123,Female,17,Statistics,Ogun,On Campus,UTME,232,53,No,0,1,6,25000,Yes,Android,5000
-124,Megan Kennedy,230124,Male,18,Mathematics,Edo,On Campus,UTME,326,63,No,0,2,7,20000,Yes,Android,1000
-125,Carl Oladele,230125,Male,20,Computer Science,Oyo,On Campus,UTME,283,75,No,0,1,6,10000,No,Android,2000
-126,Arthur Okon,230126,Male,18,Computer Science,Ogun,On Campus,UTME,298,71,No,0,3,5,10000,No,Android,1000
-127,Ryan Balogun,230127,Female,17,Computer Science,Ogun,On Campus,UTME,264,75,No,0,1,4,30000,No,Android,1500
-128,Roger Nwosu,230128,Male,21,Computer Science,Oyo,On Campus,UTME,290,73,No,0,1,6,10000,Yes,Android,1000
-129,Joe Adebayo,230129,Male,17,Mathematics,Ekiti,On Campus,UTME,252,57,No,0,1,6,5000,No,Android,500
-130,Juanita Okafor,230130,Male,19,Statistics,Ogun,On Campus,UTME,251,55,No,0,1,6,50000,No,Android,1000
-131,Albert Obi,230131,Male,18,Statistics,Oyo,On Campus,UTME,265,61,Yes,0,1,5,8000,No,Android,1000
-132,Jonathan Danjuma,230132,Male,17,Statistics,Anambra,On Campus,UTME,237,57,Yes,0,1,4,15000,Yes,Android,1500
-133,Gerald Eze,230133,Female,17,Statistics,Ondo,On Campus,UTME,261,54,No,0,1,7,15000,Yes,Android,10000
-134,Ann Usman,230134,Male,20,Statistics,Oyo,On Campus,UTME,254,60,Yes,0,2,6,20000,Yes,IOS,2500
-135,Diana Ibrahim,230135,Female,18,Statistics,Imo,On Campus,UTME,254,64,Yes,1,2,5,5000,No,Android,2500
-136,Gloria Abdullahi,230136,Male,17,Statistics,Oyo,On Campus,UTME,258,57,No,0,1,6,30000,Yes,Android,3500
-137,Marie Sani,230137,Male,17,Statistics,Ogun,On Campus,UTME,238,52,No,0,1,5,8000,No,Android,1000
-138,Doris Musa,230138,Male,18,Statistics,Ogun,On Campus,UTME,210,60,Yes,0,2,5,20000,Yes,Android,3000
-139,Julia Abubakar,230139,Female,16,Computer Science,Ogun,On Campus,UTME,307,62,No,0,1,8,30000,No,Android,2000
-140,Grace Yusuf,230140,Male,16,Computer Science,Ondo,On Campus,UTME,296,70,No,0,1,5,30000,Yes,Android,1500
-141,Judy Bello,230141,Male,18,Statistics,Ogun,On Campus,UTME,290,69,No,0,1,6,10000,Yes,Android,4000
-142,Theresa Mohammed,230142,Female,20,Statistics,Oyo,On Campus,UTME,220,60,Yes,1,2,4,15000,No,IOS,2000
-143,Beverly Adegoke,230143,Male,17,Statistics,Ondo,On - Off Campus,UTME,300,60,Yes,0,1,7,0,Yes,Android,1500
-144,Denise Adeleke,230144,Female,17,Computer Science,Ogun,On Campus,UTME,309,70,No,0,1,5,20000,Yes,Android,10000
-145,Marilyn Bakare,230145,Male,18,Computer Science,Enugu,On Campus,UTME,276,71,No,0,2,4,50000,Yes,IOS,2500
-146,Amber Bankole,230146,Male,17,Statistics,Oyo,On - Off Campus,UTME,269,72,No,0,1,6,2000,Yes,Android,3500
-147,Danielle Bassey,230147,Female,17,Statistics,Osun,On Campus,UTME,248,72,No,0,1,5,20000,Yes,Android,2500
-148,Brittany Cole,230148,Male,18,Statistics,Delta,On Campus,UTME,203,51,Yes,0,2,3,60000,No,Android,2000
-149,Rose Chukwu,230149,Male,16,Statistics,Oyo,On Campus,UTME,258,59,No,0,1,5,35000,No,Android,9000
-150,Diana Dauda,230150,Female,17,Computer Science,Anambra,On Campus,UTME,308,72,No,0,1,5,0,Yes,Android,0
-151,Judy Egwu,230151,Male,16,Mathematics,Oyo,On Campus,UTME,227,54,No,0,1,6,20000,No,Android,1000
-152,Abigail Eke,230152,Male,18,Computer Science,Oyo,On Campus,UTME,281,76,No,1,3,15,50000000,Yes,Android,1000
-153,Jane Eniola,230153,Male,18,Computer Science,Ogun,On Campus,UTME,292,71,No,0,2,4,50000,Yes,Android,1500
-154,Grace Falana,230154,Male,18,Statistics,Oyo,On Campus,UTME,248,65,No,0,1,5,1,Yes,Android,200
-155,Lori Fashola,230155,Male,18,Computer Science,Edo,On Campus,UTME,326,68,Yes,0,1,6,100000,Yes,Android,3000
-156,Tiffany Gbadebo,230156,Male,17,Computer Science,Cross River,Off Campus,UTME,294,65,No,0,1,3,40000,Yes,Android,1000
-157,Natalie George,230157,Male,16,Computer Science,Osun,On Campus,UTME,322,85,No,1,2,6,20000,No,Android,2000
-158,Alexis Idowu,230158,Male,21,Statistics,Oyo,Off Campus,UTME,289,63,No,1,3,4,0,Yes,Android,1000
-159,Kayla Ige,230159,Female,16,Computer Science,Oyo,On Campus,UTME,314,66,No,0,1,5,50000,Yes,Android,3500
-160,Jane Iheanacho,230160,Male,16,Statistics,Osun,On Campus,UTME,275,55,Yes,0,1,6,30000,Yes,Android,1500
-161,Madison Ijeh,230161,Male,18,Statistics,Oyo,On Campus,UTME,245,65,No,0,1,5,1000,Yes,Android,1000
-162,Scout Ilesanmi,230162,Male,17,Statistics,Oyo,On Campus,UTME,258,57,No,0,1,5,40000,Yes,Android,3500
-163,Isabella Ilo,230163,Male,16,Statistics,Oyo,On Campus,UTME,213,52,No,0,1,5,30000,Yes,Android,3000
-164,Hailey Inyang,230164,Male,17,Mathematics,Edo,On Campus,UTME,236,59,No,0,2,4,10,No,Android,4000
-165,Charlotte Isaac,230165,Female,17,Mathematics,Oyo,On Campus,UTME,248,64,No,0,1,6,20000,Yes,Android,10
-166,Sarah Itopa,230166,Male,21,Mathematics,Edo,On Campus,UTME,265,55,No,0,2,6,50000,No,Android,3000
-167,Kylie Iwuji,230167,Male,19,Mathematics,Oyo,On Campus,UTME,236,59,No,0,2,1,2,No,Android,3
-168,Leah Jacobs,230168,Female,16,Statistics,Ondo,On Campus,UTME,262,69,Yes,0,1,5,35000,Yes,Android,1500
-169,Evan Jegede,230169,Female,18,Mathematics,Oyo,On Campus,UTME,245,50,No,0,3,4,50000,Yes,Android,3000
-170,Rachael Jibril,230170,Male,17,Statistics,Oyo,On Campus,UTME,261,59,Yes,0,1,4,45000,Yes,Android,5000
-171,Monica Jimoh,230171,Male,17,Statistics,Abia,On Campus,UTME,211,57,No,0,2,2,30000,Yes,Android,1500
-172,Lydia Joshua,230172,Male,18,Statistics,Abia,On Campus,UTME,235,56,Yes,1,2,4,30000,Yes,Android,1500
-173,Caitlin Kalu,230173,Male,21,Statistics,Oyo,On Campus,UTME,261,63,No,0,2,8,50000,No,Android,1500
-174,Jasmine Kolawole,230174,Male,17,Statistics,Anambra,On Campus,UTME,274,67,No,0,1,6,40000,No,Android,1500
-175,Sydney Lawal,230175,Male,16,Mathematics,Oyo,On Campus,UTME,226,56,No,0,1,5,50000,Yes,Android,8000
-176,Arlene Lawanson,230176,Male,18,Mathematics,Oyo,On Campus,UTME,219,55,No,0,1,4,20000,No,Android,1000
-177,Cassandra Madu,230177,Male,19,Mathematics,Oyo,On - Off Campus,UTME,261,61,No,0,1,5,25000,No,Android,6000
-178,Holly Makinde,230178,Male,17,Computer Science,Ogun,On Campus,UTME,310,70,No,0,1,5,150,Yes,Android,25
-179,Allison Martins,230179,Male,18,Statistics,Ogun,On Campus,UTME,277,58,Yes,1,2,6,30000,No,Android,2500
+﻿id,name,matricNo,gender,age,department,state,residence,modeOfEntry,utmeScore,putmeScore,familySize,monthlyStipend
+1,James Smith,230001,Male,17,Computer Science,Oyo,On Campus,UTME,288,70,5,5000
+2,Mary Johnson,230002,Female,18,Computer Science,Ogun,On Campus,UTME,305,75,4,40000
+3,Robert Williams,230003,Female,18,Statistics,Osun,On Campus,UTME,255,62,6,30000
+4,Patricia Brown,230004,Male,17,Statistics,Oyo,On Campus,UTME,258,58,5,20000
+5,John Jones,230005,Male,17,Computer Science,Oyo,On Campus,UTME,355,76,5,20000
+6,Jennifer Garcia,230006,Male,18,Statistics,Ogun,On Campus,UTME,290,69,6,10000
+7,Michael Miller,230007,Female,16,Computer Science,Oyo,On Campus,UTME,314,68,5,50000
+8,Linda Davis,230008,Male,16,Computer Science,Oyo,On Campus,UTME,285,70,4,40000
+9,David Rodriguez,230009,Male,20,Computer Science,Delta,On Campus,UTME,326,71,6,30000
+10,Elizabeth Martinez,230010,Male,18,Statistics,Ogun,On Campus,UTME,296,78,5,40000
+11,William Hernandez,230011,Male,17,Computer Science,Ogun,On Campus,UTME,300,72,4,40000
+12,Barbara Lopez,230012,Female,16,Statistics,Ondo,On Campus,UTME,272,52,5,40000
+13,Richard Gonzalez,230013,Female,19,Computer Science,Ebonyi,On Campus,UTME,319,72,5,56000
+14,Susan Wilson,230014,Male,17,Computer Science,Anambra,On Campus,UTME,307,82,4,25000
+15,Joseph Anderson,230015,Male,17,Computer Science,Osun,Off Campus,UTME,304,79,4,20000
+16,Jessica Thomas,230016,Male,16,Computer Science,Anambra,On Campus,UTME,301,73,6,35000
+17,Thomas Taylor,230017,Male,18,Computer Science,Oyo,On Campus,UTME,304,71,6,15000
+18,Sarah Moore,230018,Male,17,Statistics,Oyo,On Campus,UTME,279,60,5,50
+19,Charles Jackson,230019,Female,16,Computer Science,Oyo,On Campus,UTME,300,81,4,30000
+20,Karen Martin,230020,Male,18,Statistics,Ogun,On Campus,UTME,277,64,6,35000
+21,Christopher Lee,230021,Male,16,Computer Science,Ondo,On Campus,UTME,332,86,5,20000
+22,Nancy Perez,230022,Male,17,Computer Science,Oyo,On Campus,UTME,296,78,7,50000
+23,Daniel Thompson,230023,Male,18,Statistics,Ogun,On Campus,UTME,209,56,5,0
+24,Lisa White,230024,Male,17,Statistics,Ekiti,On Campus,UTME,246,58,5,30000
+25,Matthew Harris,230025,Male,19,Statistics,Ogun,On Campus,UTME,251,55,6,50000
+26,Betty Clark,230026,Female,17,Computer Science,Ogun,On Campus,UTME,280,72,3,80000
+27,Anthony Lewis,230027,Male,17,Computer Science,Enugu,On Campus,UTME,306,70,5,80000
+28,Margaret Robinson,230028,Male,18,Computer Science,Ekiti,On - Off Campus,UTME,326,69,8,25000
+29,Mark Walker,230029,Male,19,Statistics,Ogun,Off Campus,UTME,243,69,4,100000
+30,Sandra Young,230030,Male,17,Statistics,Osun,On Campus,UTME,286,68,6,10000
+31,Donald Hall,230031,Male,18,Statistics,Oyo,On Campus,UTME,257,58,5,30000
+32,Ashley Allen,230032,Female,17,Computer Science,Ogun,On Campus,UTME,296,72.5,6,10000
+33,Steven King,230033,Male,18,Computer Science,Ogun,On Campus,UTME,306,77,7,10000
+34,Kimberly Wright,230034,Male,21,Statistics,Ogun,Off Campus,UTME,241,60,4,20000
+35,Paul Scott,230035,Male,17,Statistics,Oyo,On - Off Campus,UTME,263,64,5,17000
+36,Emily Torres,230036,Female,16,Computer Science,Delta,On Campus,UTME,295,77,6,35000
+37,Andrew Nguyen,230037,Male,19,Computer Science,Imo,On Campus,UTME,276,76,7,25000
+38,Donna Hill,230038,Female,17,Statistics,Ekiti,On Campus,UTME,257,69,6,45000
+39,Joshua Flores,230039,Female,16,Statistics,Oyo,On Campus,UTME,286,63,4,30000
+40,Michelle Green,230040,Female,17,Statistics,Oyo,On Campus,UTME,263,67,7,100
+41,Kenneth Adams,230041,Male,18,Statistics,Ogun,On Campus,UTME,210,60,5,40000
+42,Carol Nelson,230042,Male,17,Statistics,Oyo,On Campus,UTME,265,61,5,3000
+43,Kevin Baker,230043,Female,16,Statistics,Ondo,On Campus,UTME,204,52,4,30000
+44,Amanda Pettis,230044,Male,17,Statistics,Akwa-Ibom,On - Off Campus,UTME,264,55,3,70000
+45,Brian Bruno,230045,Male,20,Statistics,Osun,On Campus,UTME,285,51,4,50000
+46,Melissa Miller,230046,Male,18,Statistics,Oyo,Off Campus,UTME,241,70,6,40000
+47,George Cox,230047,Male,17,Computer Science,Oyo,On Campus,UTME,307,74,6,50000
+48,Deborah Kelly,230048,Male,17,Statistics,Enugu,On - Off Campus,UTME,272,62,5,15000
+49,Edward Howard,230049,Female,16,Statistics,Osun,On Campus,UTME,251,59,4,35
+50,Stephanie Ward,230050,Female,16,Statistics,Ondo,On Campus,UTME,262,69,5,30000
+51,Ronald Torres,230051,Male,16,Computer Science,Ogun,On Campus,UTME,302,80,10,50000
+52,Rebecca Peterson,230052,Female,17,Mathematics,Ogun,On Campus,UTME,309,70,5,20000
+53,Timothy Gray,230053,Female,17,Computer Science,Ogun,On Campus,UTME,264,75,4,30000
+54,Laura Ramirez,230054,Male,17,Statistics,Oyo,On Campus,UTME,273,72,5,50000
+55,Jason James,230055,Male,19,Statistics,Akwa-Ibom,On Campus,GCE,225,54,4,0
+56,Helen Watson,230056,Female,17,Statistics,Ekiti,On Campus,UTME,263,53,3,20000
+57,Jeffrey Brooks,230057,Male,17,Computer Science,Bayelsa,Off Campus,UTME,283,51,2,120000
+58,Sharon Kelly,230058,Male,17,Statistics,Abia,On Campus,UTME,211,57,2,30000
+59,Ryan Sanders,230059,Male,16,Computer Science,Oyo,On Campus,UTME,303,76,5,0
+60,Cynthia Price,230060,Male,19,Statistics,Ogun,On Campus,UTME,281,51,6,5000
+61,Jacob Bennett,230061,Male,16,Statistics,Ogun,On Campus,UTME,238,55,5,10000
+62,Kathleen Wood,230062,Male,16,Statistics,Oyo,On Campus,UTME,244,66,5,30000
+63,Gary Barnes,230063,Female,20,Statistics,Oyo,On Campus,UTME,220,60,4,20000
+64,Amy Ross,230064,Female,17,Computer Science,Oyo,On Campus,UTME,329,76,7,0
+65,Nicholas Henderson,230065,Female,17,Computer Science,Oyo,On Campus,UTME,316,73,5,45000
+66,Shirley Coleman,230066,Female,17,Statistics,Osun,On Campus,UTME,258,52,6,30000
+67,Eric Jenkins,230067,Male,19,Statistics,Oyo,On Campus,UTME,286,67,5,6000
+68,Angela Perry,230068,Female,21,Statistics,Oyo,Off Campus,UTME,269,60,6,20
+69,Jonathan Powell,230069,Male,16,Statistics,Oyo,On Campus,UTME,258,59,5,35000
+70,Anna Long,230070,Male,16,Computer Science,Ogun,On Campus,UTME,292,73,6,10000
+71,Stephen Patterson,230071,Female,16,Statistics,Ekiti,On Campus,UTME,263,67,4,50000
+72,Ruth Hughes,230072,Male,16,Statistics,Ogun,On Campus,UTME,273,69,5,20000
+73,Larry Flores,230073,Male,17,Computer Science,Delta,On Campus,UTME,337,80,5,30000
+74,Brenda Washington,230074,Male,16,Computer Science,Ondo,On Campus,UTME,296,70,5,30000
+75,Scott Butler,230075,Male,16,Computer Science,Osun,On Campus,UTME,305,75,5,20000
+76,Pamela Simmons,230076,Male,17,Computer Science,Osun,On Campus,UTME,270,75,6,10000
+77,Frank Foster,230077,Female,17,Statistics,Ondo,On Campus,UTME,261,54,7,20
+78,Virginia Gonzales,230078,Male,20,Computer Science,Enugu,On Campus,UTME,291,68,5,3000
+79,Brandon Bryant,230079,Male,16,Computer Science,Edo,On Campus,UTME,310,70,6,10
+80,Katherine Alexander,230080,Male,17,Computer Science,Delta,On Campus,UTME,285,76,3,15000
+81,Gregory Russell,230081,Male,18,Statistics,Delta,On Campus,UTME,277,61,5,20000
+82,Nicole Griffin,230082,Male,19,Computer Science,Ogun,Off Campus,UTME,299,71,4,60
+83,Benjamin Diaz,230083,Male,18,Statistics,Edo,On Campus,UTME,293,67,6,30000
+84,Catherine Hayes,230084,Male,18,Computer Science,Oyo,On Campus,UTME,329,79,7,20000
+85,Samuel Myers,230085,Male,17,Statistics,Ogun,On Campus,UTME,289,68,4,60000
+86,Christine Ford,230086,Male,20,Statistics,Oyo,On Campus,UTME,254,60,6,15000
+87,Patrick Hamilton,230087,Male,19,Computer Science,Ogun,Off Campus,UTME,299,71,5,50
+88,Debra Graham,230088,Female,17,Computer Science,Ogun,On Campus,UTME,296,73,6,10000
+89,Alexander Sullivan,230089,Male,19,Computer Science,Oyo,On Campus,UTME,303,72,4,15000
+90,Rachel Wallace,230090,Male,18,Computer Science,Oyo,Off Campus,UTME,285,77,4,10000
+91,Raymond Woods,230091,Male,16,Computer Science,Oyo,On Campus,UTME,289,72,5,10000
+92,Carolyn Cole,230092,Male,17,Computer Science,Delta,On Campus,UTME,285,76,3,18000
+93,Jack West,230093,Male,21,Computer Science,Edo,On Campus,UTME,337,79,4,50000
+94,Janet Jordan,230094,Female,19,Computer Science,Bayelsa,On Campus,UTME,267,55,6,20000
+95,Dennis Owens,230095,Male,18,Computer Science,Oyo,On Campus,UTME,306,78,4,25000
+96,Maria Reynolds,230096,Male,18,Computer Science,Ogun,On Campus,UTME,307,76,7,20000
+97,Jerry Fisher,230097,Male,18,Computer Science,Osun,Off Campus,UTME,304,79,4,20000
+98,Heather Ellis,230098,Male,18,Computer Science,Ekiti,On Campus,UTME,326,69,6,20000
+99,Tyler Harrison,230099,Male,19,Computer Science,Imo,On Campus,UTME,276,76,6,50000
+100,Diane Gibson,230100,Female,16,Computer Science,Lagos,On Campus,UTME,300,81,4,30000
+101,Aaron McDonald,230101,Male,20,Computer Science,Oyo,On Campus,UTME,287,85,5,20000
+102,Julie Cruz,230102,Male,17,Computer Science,Oyo,On Campus,UTME,314,70,7,40000
+103,Jose Marshall,230103,Male,18,Computer Science,Oyo,On Campus,UTME,329,79,7,20000
+104,Joyce Ortiz,230104,Male,17,Computer Science,Kwara,On Campus,UTME,281,75,5,10000
+105,Adam Gomez,230105,Female,16,Computer Science,Edo,On Campus,UTME,297,72,6,10000
+106,Evelyn Murray,230106,Female,17,Computer Science,Oyo,On Campus,UTME,329,76,7,40000
+107,Henry Freeman,230107,Male,17,Mathematics,Ondo,On Campus,UTME,290,65,5,2000
+108,Joan Wells,230108,Male,18,Statistics,Oyo,On Campus,UTME,257,58,5,30000
+109,Nathan Webb,230109,Male,17,Statistics,Osun,On Campus,UTME,286,69,6,10000
+110,Victoria Simpson,230110,Female,16,Computer Science,Oyo,On Campus,UTME,314,66,5,50000
+111,Douglas Tucker,230111,Male,17,Computer Science,Oyo,On Campus,UTME,270,75,6,30000
+112,Kelly Porter,230112,Male,18,Computer Science,Benue,On Campus,UTME,290,66,4,50000
+113,Peter Hunter,230113,Male,17,Computer Science,Imo,On Campus,UTME,324,81,5,60000
+114,Christina Hicks,230114,Female,17,Computer Science,Edo,On Campus,UTME,325,63,6,20000
+115,Zachary Crawford,230115,Male,17,Computer Science,Imo,On Campus,UTME,299,67,7,35000
+116,Lauren Mason,230116,Female,18,Statistics,Imo,On Campus,UTME,254,64,5,5000
+117,Kyle Robertson,230117,Male,16,Computer Science,Ogun,On Campus,UTME,303,68,5,28000
+118,Frances Boyd,230118,Male,17,Computer Science,Bayelsa,Off Campus,UTME,283,51,3,120000
+119,Walter Shaw,230119,Male,16,Statistics,Osun,On Campus,UTME,284,60,5,50000
+120,Martha Holmes,230120,Male,16,Computer Science,Ogun,On Campus,UTME,292,73,6,20000
+121,Harold Stone,230121,Male,18,Computer Science,Delta,On Campus,UTME,301,78,6,70000
+122,Cheryl Meyer,230122,Male,19,Statistics,Ogun,On Campus,UTME,281,51,6,10000
+123,Jeremy Ferguson,230123,Female,17,Statistics,Ogun,On Campus,UTME,232,53,6,25000
+124,Megan Kennedy,230124,Male,18,Mathematics,Edo,On Campus,UTME,326,63,7,20000
+125,Carl Oladele,230125,Male,20,Computer Science,Oyo,On Campus,UTME,283,75,6,10000
+126,Arthur Okon,230126,Male,18,Computer Science,Ogun,On Campus,UTME,298,71,5,10000
+127,Ryan Balogun,230127,Female,17,Computer Science,Ogun,On Campus,UTME,264,75,4,30000
+128,Roger Nwosu,230128,Male,21,Computer Science,Oyo,On Campus,UTME,290,73,6,10000
+129,Joe Adebayo,230129,Male,17,Mathematics,Ekiti,On Campus,UTME,252,57,6,5000
+130,Juanita Okafor,230130,Male,19,Statistics,Ogun,On Campus,UTME,251,55,6,50000
+131,Albert Obi,230131,Male,18,Statistics,Oyo,On Campus,UTME,265,61,5,8000
+132,Jonathan Danjuma,230132,Male,17,Statistics,Anambra,On Campus,UTME,237,57,4,15000
+133,Gerald Eze,230133,Female,17,Statistics,Ondo,On Campus,UTME,261,54,7,15000
+134,Ann Usman,230134,Male,20,Statistics,Oyo,On Campus,UTME,254,60,6,20000
+135,Diana Ibrahim,230135,Female,18,Statistics,Imo,On Campus,UTME,254,64,5,5000
+136,Gloria Abdullahi,230136,Male,17,Statistics,Oyo,On Campus,UTME,258,57,6,30000
+137,Marie Sani,230137,Male,17,Statistics,Ogun,On Campus,UTME,238,52,5,8000
+138,Doris Musa,230138,Male,18,Statistics,Ogun,On Campus,UTME,210,60,5,20000
+139,Julia Abubakar,230139,Female,16,Computer Science,Ogun,On Campus,UTME,307,62,8,30000
+140,Grace Yusuf,230140,Male,16,Computer Science,Ondo,On Campus,UTME,296,70,5,30000
+141,Judy Bello,230141,Male,18,Statistics,Ogun,On Campus,UTME,290,69,6,10000
+142,Theresa Mohammed,230142,Female,20,Statistics,Oyo,On Campus,UTME,220,60,4,15000
+143,Beverly Adegoke,230143,Male,17,Statistics,Ondo,On - Off Campus,UTME,300,60,7,0
+144,Denise Adeleke,230144,Female,17,Computer Science,Ogun,On Campus,UTME,309,70,5,20000
+145,Marilyn Bakare,230145,Male,18,Computer Science,Enugu,On Campus,UTME,276,71,4,50000
+146,Amber Bankole,230146,Male,17,Statistics,Oyo,On - Off Campus,UTME,269,72,6,2000
+147,Danielle Bassey,230147,Female,17,Statistics,Osun,On Campus,UTME,248,72,5,20000
+148,Brittany Cole,230148,Male,18,Statistics,Delta,On Campus,UTME,203,51,3,60000
+149,Rose Chukwu,230149,Male,16,Statistics,Oyo,On Campus,UTME,258,59,5,35000
+150,Diana Dauda,230150,Female,17,Computer Science,Anambra,On Campus,UTME,308,72,5,0
+151,Judy Egwu,230151,Male,16,Mathematics,Oyo,On Campus,UTME,227,54,6,20000
+152,Abigail Eke,230152,Male,18,Computer Science,Oyo,On Campus,UTME,281,76,15,50000000
+153,Jane Eniola,230153,Male,18,Computer Science,Ogun,On Campus,UTME,292,71,4,50000
+154,Grace Falana,230154,Male,18,Statistics,Oyo,On Campus,UTME,248,65,5,1
+155,Lori Fashola,230155,Male,18,Computer Science,Edo,On Campus,UTME,326,68,6,100000
+156,Tiffany Gbadebo,230156,Male,17,Computer Science,Cross River,Off Campus,UTME,294,65,3,40000
+157,Natalie George,230157,Male,16,Computer Science,Osun,On Campus,UTME,322,85,6,20000
+158,Alexis Idowu,230158,Male,21,Statistics,Oyo,Off Campus,UTME,289,63,4,0
+159,Kayla Ige,230159,Female,16,Computer Science,Oyo,On Campus,UTME,314,66,5,50000
+160,Jane Iheanacho,230160,Male,16,Statistics,Osun,On Campus,UTME,275,55,6,30000
+161,Madison Ijeh,230161,Male,18,Statistics,Oyo,On Campus,UTME,245,65,5,1000
+162,Scout Ilesanmi,230162,Male,17,Statistics,Oyo,On Campus,UTME,258,57,5,40000
+163,Isabella Ilo,230163,Male,16,Statistics,Oyo,On Campus,UTME,213,52,5,30000
+164,Hailey Inyang,230164,Male,17,Mathematics,Edo,On Campus,UTME,236,59,4,10
+165,Charlotte Isaac,230165,Female,17,Mathematics,Oyo,On Campus,UTME,248,64,6,20000
+166,Sarah Itopa,230166,Male,21,Mathematics,Edo,On Campus,UTME,265,55,6,50000
+167,Kylie Iwuji,230167,Male,19,Mathematics,Oyo,On Campus,UTME,236,59,1,2
+168,Leah Jacobs,230168,Female,16,Statistics,Ondo,On Campus,UTME,262,69,5,35000
+169,Evan Jegede,230169,Female,18,Mathematics,Oyo,On Campus,UTME,245,50,4,50000
+170,Rachael Jibril,230170,Male,17,Statistics,Oyo,On Campus,UTME,261,59,4,45000
+171,Monica Jimoh,230171,Male,17,Statistics,Abia,On Campus,UTME,211,57,2,30000
+172,Lydia Joshua,230172,Male,18,Statistics,Abia,On Campus,UTME,235,56,4,30000
+173,Caitlin Kalu,230173,Male,21,Statistics,Oyo,On Campus,UTME,261,63,8,50000
+174,Jasmine Kolawole,230174,Male,17,Statistics,Anambra,On Campus,UTME,274,67,6,40000
+175,Sydney Lawal,230175,Male,16,Mathematics,Oyo,On Campus,UTME,226,56,5,50000
+176,Arlene Lawanson,230176,Male,18,Mathematics,Oyo,On Campus,UTME,219,55,4,20000
+177,Cassandra Madu,230177,Male,19,Mathematics,Oyo,On - Off Campus,UTME,261,61,5,25000
+178,Holly Makinde,230178,Male,17,Computer Science,Ogun,On Campus,UTME,310,70,5,150
+179,Allison Martins,230179,Male,18,Statistics,Ogun,On Campus,UTME,277,58,6,30000
+1768240793972,Victor Nwachukwu,230221,Male,,Computer Science,,,,,,,

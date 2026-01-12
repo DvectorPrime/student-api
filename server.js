@@ -5,6 +5,8 @@ const PORT = 8000
 
 const app = express()
 
+app.use(express.json())
+
 app.use("/api/students", apiRouter)
 
 app.listen(PORT, () => {
