@@ -1,10 +1,6 @@
 import fs from "node:fs"
-import { getDataFromCsv } from "../utils/getDataFromCsv.js"
 
 export async function createStudentData(req, res){
-
-    const existingData = await getDataFromCsv()
-
     {
         const {
            name, matricNo, gender, age, department, 
