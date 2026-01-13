@@ -6,7 +6,7 @@ export const getStudents = async (req, res) => {
 
         const filters = req.query
 
-        const separateFiltersExact = ["age", "utmeScore", "putmeScore", "familySize", "monthlyStipend", "dataBudget"]
+        const separateFiltersExact = ["age", "utmeScore", "putmeScore", "familySize", "monthlyStipend"]
         const separateFiltersGreaterThan = ["minAge", "minUtmeScore", "minPutmeScore", "minMonthlyStipend", "mindataBudget", "minFamilySize"]
         const separateFiltersLessThan = ["maxAge", "maxUtmeScore", "maxPutmeScore", "maxMonthlyStipend", "maxDataBudget", "maxFamilySize"]
 
@@ -23,7 +23,6 @@ export const getStudents = async (req, res) => {
                     const editedFilter = filter.charAt(3).toLowerCase() + filter.substring(4)
                     const dbMatricNo = parseInt(student[editedFilter])
                     const normalizedInput = parseInt(filters[filter])
-                    // return dbMatricNo <= normalizedInput
                 })
                 
             } else if (separateFiltersGreaterThan.includes(filter)){

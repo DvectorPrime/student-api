@@ -11,6 +11,7 @@ export function getDataFromCsv(){
         Papa.parse(file, {
             header: true,
             complete: function(results){
+                console.log(results.data)
                 resolve(results.data)
             },
             error: function(err){
