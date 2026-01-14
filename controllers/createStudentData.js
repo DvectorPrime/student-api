@@ -1,5 +1,6 @@
 import fs from "node:fs"
 import { getDataFromCsv } from "../utils/getDataFromCsv.js"
+import { verifyQueryParams } from "../utils/verifyQueryParams.js"
 
 export async function createStudentData(req, res){
     const existingData = await getDataFromCsv()
@@ -16,24 +17,10 @@ export async function createStudentData(req, res){
             return res.status(500).json({error : "Matric No, Gender, Name & Department is required"})
         }
 
-        if (![matricNo, age, utmeScore, putmeScore, familySize, monthlyStipend].every(val => !val || typeof val === "number")) {
-            return res.status(500).json({error : "All numeric fields must be numbers"})
-        } else if (matricNo <= 100000 || matricNo >= 999999){
-            return res.status(500).json({error : "Invalid Matric No"})
-        } else if (age && (age < 16 || age > 80)){
-            return res.status(500).json({error: "Age is out of unversity age bound"})
-        } else if ( residence && !["On Campus", "Off Campus"].includes(residence)){
-            return res.status(500).json({error : "Residence should return 'Off Campus' or 'On Campus'"})
-        } else if (modeOfEntry && !["UTME", "PUTME", "DE"].includes(modeOfEntry)){
-            return res.status(500).json({error: "Invalid mode of entry"})
-        } else if (utmeScore < 200 || utmeScore > 400){
-            return res.status(500).json({error: "UTME Score is out of bounds"})
-        } else if (putmeScore < 50 || putmeScore > 100){
-            return res.status(500).json({error: "PUTME Score is out of bounds"})
-        } else if (familySize && familySize < 1){
-            return res.status(500).json({error: "Invalid family size"})
-        } else if(gender && !["Male", "Female", "Other"].includes(gender)){
-            return res.status(500).json({ error: "Invalid gender value"}) 
+        const error = verifyQueryParams(req.body, res)
+
+        if (error) {
+            return error
         }
 
         for (const student of existingData){

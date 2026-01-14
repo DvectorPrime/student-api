@@ -1,9 +1,16 @@
 import fs from "node:fs"
 import path from "node:path"
 import { getDataFromCsv } from "../utils/getDataFromCsv.js"
+import { verifyQueryParams } from "../utils/verifyQueryParams.js"
 
 export async function updateStudent(req, res){
     const dataupdate = req.body
+
+    const error = verifyQueryParams(dataupdate, res)
+
+    if (error) {
+        return error
+    }
 
     const {matricNo} = dataupdate
     const validFilters = ["name", "matricNo", "gender", "age", "department", "state", "residence", "utmeScore", "putmeScore", "familySize", "monthlyStipend", "modeOfEntry"]
@@ -34,7 +41,7 @@ export async function updateStudent(req, res){
                 }
                 updatedRecord.matricNo = newMatric
             } else {
-                updatedRecord[key] = dataupdate[key] == null ? "" : dataupdate[key].toString()
+                updatedRecord[key] = dataupdate[key] == null ? "" : dataupdate[key].toString().trim().normalize('NFC')
             }
         }
 
