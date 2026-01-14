@@ -23,6 +23,8 @@ export const getStudents = async (req, res) => {
                     const editedFilter = filter.charAt(3).toLowerCase() + filter.substring(4)
                     const dbMatricNo = parseInt(student[editedFilter])
                     const normalizedInput = parseInt(filters[filter])
+
+                    return dbMatricNo <= normalizedInput
                 })
                 
             } else if (separateFiltersGreaterThan.includes(filter)){
@@ -35,7 +37,7 @@ export const getStudents = async (req, res) => {
             } else {
                 studentData = studentData.filter((student, index) => {
                     const valuesArray = filters[filter].split(',').map(d => d.trim());
-                    const dbMatricNo = student[filter].toString().toLowerCase().trim().normalize('NFC')
+                    const dbMatricNo = student[filter] ? student[filter].toString().toLowerCase().trim().normalize('NFC') : ""
 
                     let success = false
 

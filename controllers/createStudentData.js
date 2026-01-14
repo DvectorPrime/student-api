@@ -5,54 +5,56 @@ import { verifyQueryParams } from "../utils/verifyQueryParams.js"
 export async function createStudentData(req, res){
     const existingData = await getDataFromCsv()
 
-    {
-        const {
-           name, matricNo, gender, age, department, 
-           state, residence, modeOfEntry, 
-           utmeScore, putmeScore, 
-           familySize, monthlyStipend
-        } = req.body
+    if (!req.body || Object.keys(req.body).length === 0){
+        return res.status(500).json({error : "No data provided"})
+    }
 
-        if (!matricNo || !name || !department || !gender){
-            return res.status(500).json({error : "Matric No, Gender, Name & Department is required"})
-        }
+    const {
+        name, matricNo, gender, age, department, 
+        state, residence, modeOfEntry, 
+        utmeScore, putmeScore, 
+        familySize, monthlyStipend
+    } = req.body
 
-        const error = verifyQueryParams(req.body, res)
+    if (!matricNo || !name || !department || !gender){
+        return res.status(500).json({error : "Matric No, Gender, Name & Department is required"})
+    }
 
-        if (error) {
-            return error
-        }
+    const error = verifyQueryParams(req.body, res)
 
-        for (const student of existingData){
-            if (student.matricNo === matricNo.toString()){
-                return res.status(500).json({error : "Student Already exists in database. Use /edit endpoint instead"})}
-        }
+    if (error) {
+        return error
+    }
 
-        const writeData = {
-            name: name || "",
-            matricNo: matricNo?.toString() || "",
-            gender: gender || "",
-            age: age?.toString() || "",
-            department: department || "",
-            state: state || "",
-            residence: residence || "",
-            modeOfEntry: modeOfEntry || "",
-            utmeScore: utmeScore?.toString() || "",
-            putmeScore: putmeScore?.toString() || "",
-            familySize: familySize?.toString() || "",
-            monthlyStipend: monthlyStipend?.toString() || "",
-        }
+    for (const student of existingData){
+        if (student.matricNo === matricNo.toString()){
+            return res.status(500).json({error : "Student Already exists in database. Use /edit endpoint instead"})}
+    }
 
-        try{
-            const newRow = `${Date.now()},` + Object.values(writeData).join(",") + "\n"
-    
-            fs.appendFileSync("data/students.csv", newRow)
+    const writeData = {
+        name: name || "",
+        matricNo: matricNo?.toString() || "",
+        gender: gender || "",
+        age: age?.toString() || "",
+        department: department || "",
+        state: state || "",
+        residence: residence || "",
+        modeOfEntry: modeOfEntry || "",
+        utmeScore: utmeScore?.toString() || "",
+        putmeScore: putmeScore?.toString() || "",
+        familySize: familySize?.toString() || "",
+        monthlyStipend: monthlyStipend?.toString() || "",
+    }
 
-            res.status(201).json({message: "Student data created successfully"})
+    try{
+        const newRow = `${Date.now()},` + Object.values(writeData).join(",") + "\n"
 
-        }catch(err){
-            console.log(err)
-            return res.status(500).json({error: "An error occurred while writing to database"})
-        }
-    } 
+        fs.appendFileSync("data/students.csv", newRow)
+
+        res.status(201).json({message: "Student data created successfully"})
+
+    }catch(err){
+        console.log(err)
+        return res.status(500).json({error: "An error occurred while writing to database"})
+    }
 }
